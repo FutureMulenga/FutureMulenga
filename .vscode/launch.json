@@ -1,0 +1,59 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Reservation",
+      "request": "launch",
+      "mainClass": "Reservation",
+      "projectName": "JAVA PROGRAMING_5707d260"
+    },
+    {
+      "type": "java",
+      "name": "AccountApp",
+      "request": "launch",
+      "mainClass": "AccountApp",
+      "projectName": "JAVA PROGRAMING_5707d260"
+    },
+    {
+      "type": "java",
+      "name": "Launch AccountApp",
+      "request": "launch",
+      "mainClass": "AccountApp",
+      "projectName": "JAVA PROGRAMING_b535d5e9"
+    },
+    {
+      "type": "java",
+      "name": "Launch Dialog1",
+      "request": "launch",
+      "mainClass": "Dialog1",
+      "projectName": "JAVA PROGRAMING_b535d5e9"
+    },
+    {
+      "type": "java",
+      "name": "Launch AccountTest",
+      "request": "launch",
+      "mainClass": "AccountTest",
+      "projectName": "JAVA PROGRAMING_b535d5e9"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "c:/Users/opooo/Desktop/JAVA PROGRAMING/lab 2",
+      "program": "c:/Users/opooo/Desktop/JAVA PROGRAMING/lab 2/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+public class MyTasks{
+    private int Taskid;
+    private String Taskname;
+    private LocalDateTime  TaskDueDate;
+    private Boolean ISDone;
+
+
+    //constructor definition
+    public MyTasks(){}
+
+    public MyTasks(int Taskid){
+
+        this.Taskid = Taskid;
+    }
+
+    public MyTasks(int Taskid, String Taskname, LocalDateTime LocalDate, Boolean ISDone){
+
+        this.Taskid = Taskid;
+        this.Taskname = Taskname;
+        this.LocalDateTime = LocalDateTime;
+        this.ISDone = ISDone;
+        
+    }
+
+
+    //getters and setters definitions
+    public void setTaskid(){
+        
+        if(Taskid <= 0)// performed validation to ensure postive ids
+            return;
+        this.Taskid = Taskid;
+    }
+
+    public int getTaskid(){
+
+         return this.Taskid;
+    }
+
+    public void setTaskname(String taskname) {
+        if (taskname.length() <= 5)
+            return;
+     }
+        
+
+    public String getTaskname()
+
+}
